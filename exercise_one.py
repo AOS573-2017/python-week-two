@@ -133,4 +133,6 @@ new_dataset = [list(x) for x in zip(*new_dataset)]
 final_dataset = []
 for l in new_dataset:
 	final_dataset.append(fit_dataset(5, 1, l))
+#But now make this automatic for the number of rows
+
 
